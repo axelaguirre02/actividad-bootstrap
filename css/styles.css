@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  background-color: #6c757d;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 6rem 0 0;
+  vertical-align: middle;
+}
+
+.navbar-brand {
+  font-size: 23px;
+}
+
+p {
+  margin: 0 10px;
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
